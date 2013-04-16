@@ -1,5 +1,10 @@
 package com.codefrux.doctorApps.control;
 
+/*
+ * This Class perform all the Operation of 
+ * the SQLite database of LoginLogout Model 
+ */
+
 
 import com.codefrux.doctorApps.model.LoginLogoutModel;
 
