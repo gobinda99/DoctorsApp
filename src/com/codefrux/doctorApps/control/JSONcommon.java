@@ -1,5 +1,9 @@
 package com.codefrux.doctorApps.control;
 
+/*
+ * This Class parse Json Class to an Array List of Object here CustomObject
+ */
+
 import java.util.ArrayList;
 
 import org.json.JSONArray;
