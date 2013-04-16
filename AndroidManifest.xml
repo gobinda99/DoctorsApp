@@ -24,7 +24,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PatientInformationActivity"></activity>
+        <activity android:name=".PatientInformationActivity">
+                
+        </activity>
         <activity android:name="com.codefrux.doctorApps.PatientListActivity"></activity>
         <activity 
             android:name="com.codefrux.doctorApps.RecOfPatientVisitActivity"></activity>
