@@ -2,7 +2,8 @@ package com.codefrux.doctorApps;
 
 
 /*
- * This Activity maintain the time taken and visiting the patient 
+ * This Activity Class maintain the time taken and visiting the patient 
+ * 
  */
 
 
