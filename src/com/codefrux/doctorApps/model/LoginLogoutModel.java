@@ -1,5 +1,9 @@
 package com.codefrux.doctorApps.model;
 
+/*
+ * This Class Represents Model Of a Doctor LoginLogout Information
+ */
+
 public class LoginLogoutModel {
    private	String Id,Doctor_name,PassWord,Login_date,Login_time,Logout_date,Logout_time;
 
