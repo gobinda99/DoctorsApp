@@ -1,5 +1,9 @@
 package com.codefrux.doctorApps.model;
 
+/*
+ * This Class represents a Model of a particular Patient with assigned Doctor
+ */
+
 public class CustomObject {
   private String Doctor_Id,Visiting_Time,Date,Status,Patient_Id,Patient_Name,Patient_Age,Patient_Sex,Patient_Address,Patient_Mobile,Overview;
 
