@@ -1,5 +1,9 @@
 package com.codefrux.doctorApps.control;
 
+/*
+ * This Class maintain common header to all the layout
+ */
+
 
 import java.util.ArrayList;
 import java.util.Date;
