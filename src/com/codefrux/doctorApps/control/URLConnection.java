@@ -1,4 +1,9 @@
 package com.codefrux.doctorApps.control;
+
+/*
+ * This Class performs Connection to The server 
+ * And Getting the Response From the Server
+ */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
