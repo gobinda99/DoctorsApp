@@ -1,5 +1,9 @@
 package com.codefrux.doctorApps;
 
+/**
+  Activity for gorget password
+ **/
+
 
 
 
