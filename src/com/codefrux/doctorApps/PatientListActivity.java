@@ -1,7 +1,7 @@
 package com.codefrux.doctorApps;
 
 /**
- * This Activity is for list of Patient 
+ * This Activity is for displaying list of Patient 
  */
 
 
