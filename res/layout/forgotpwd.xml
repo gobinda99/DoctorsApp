@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#898989" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:textColor="#ffffff"
+        android:text="Mobile No."
+        android:textSize="16dp"
+        android:textStyle="bold"
+        
+         />
+
+    <EditText
+        android:id="@+id/editText1ForgetPwdPhoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:inputType="number"
+        android:ems="10" 
+        android:textColor="#898989"
+        android:singleLine="true"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1ForgetPwdSumit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1ForgetPwdPhoneNo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Submit" 
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1ForgetPwdSumit"
+        android:layout_marginTop="30dp"
+        android:layout_alignRight="@id/textView1"
+        android:text="UserName :"
+        android:textSize="16dp" 
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+         />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="40dp"
+        android:text="Password :"
+        android:textSize="16dp" 
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:id="@+id/TextView4ForgetPwdPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:paddingLeft="10dp"
+        android:text=" " 
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/TextView5ForgetPwdUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:paddingLeft="10dp"
+        android:text=" "
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="6dp"
+        android:text="Enter Mobile No. for verification"
+        android:textSize="18dp"
+        android:textStyle="bold"
+         android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/button2ForgetPwdLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1ForgetPwdPhoneNo"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="53dp"
+        android:text="Click to login"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

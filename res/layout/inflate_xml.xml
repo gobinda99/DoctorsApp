@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/table_row">
+
+    <TextView
+        android:id="@+id/textView1inflatePatientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        
+        android:text="text1 "
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1inflatePatientName"
+        android:layout_below="@+id/textView1inflatePatientName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"
+        android:text="Visiting time:"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+         />
+    
+     <TextView
+         android:id="@+id/textView2inflateVisitingTime"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/textView2a"
+         android:layout_marginLeft="6dp"
+         android:layout_toRightOf="@+id/textView2a"
+         android:text="Text2"
+         android:textSize="16dp"
+         android:textColor="#ffffff"
+         android:textStyle="bold"
+          />
+
+        <TextView
+            android:id="@+id/textView3a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2a"
+            android:layout_below="@+id/textView2a"
+            android:text="Status:"
+            android:textSize="16dp" 
+            android:layout_marginTop="7dp"
+            android:textStyle="bold"
+            android:textColor="#fffffF"
+            android:visibility="visible" />
+        
+           <TextView
+               android:id="@+id/textView3inflateStatus"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignBottom="@+id/textView3a"
+               android:layout_marginLeft="6dp"
+               android:layout_toRightOf="@+id/textView3a"
+               android:text="Text3"
+               android:textSize="16dp"
+               android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button1InflateGo"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView3inflateStatus"
+            android:layout_alignParentRight="true"
+            android:text="More info"
+            android:textSize="12dp"
+            android:textStyle="bold" 
+            android:textColor="#FFFFFF"/>
+   
+</RelativeLayout>
