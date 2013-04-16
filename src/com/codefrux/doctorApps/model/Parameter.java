@@ -1,5 +1,10 @@
 package com.codefrux.doctorApps.model;
 
+/* 
+ * This is an Interface Class Represents all the Parameter 
+ * used in JSON Object and HTTP Post
+ */
+
 import java.io.Serializable;
 
 public interface Parameter extends Serializable{
