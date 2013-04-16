@@ -1,5 +1,9 @@
 package com.codefrux.doctorApps.control;
 
+/*
+ * This Class Creates The DataBase Of LoginLogout Model
+ */
+
 
 
 import android.content.Context;
