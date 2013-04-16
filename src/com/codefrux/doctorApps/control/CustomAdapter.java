@@ -2,6 +2,10 @@ package com.codefrux.doctorApps.control;
 
 import java.util.ArrayList;
 
+/* 
+ * This Class view a CustomView as a Patient List
+ */
+
 import com.codefrux.doctorApps.PatientInformationActivity;
 import com.codefrux.doctorApps.R;
 
