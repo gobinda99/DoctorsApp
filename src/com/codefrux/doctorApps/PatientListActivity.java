@@ -1,5 +1,9 @@
 package com.codefrux.doctorApps;
 
+/**
+ * This Activity is for list of Patient 
+ */
+
 
 import java.util.ArrayList;
 import org.json.JSONException;
