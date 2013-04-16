@@ -2,7 +2,8 @@ package com.codefrux.doctorApps;
 
 
 /**
-  MainActivity
+  This Class Takes Doctor Name and Password 
+  and pass to the server and gets response as JSON Object
  **/
  
 
