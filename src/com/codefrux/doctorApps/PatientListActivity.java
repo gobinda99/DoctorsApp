@@ -2,6 +2,8 @@ package com.codefrux.doctorApps;
 
 /**
  * This Activity is for displaying list of Patient 
+ * It Takes Json Object from previous Activity ie MainActivity or ForgetPasswordActivity or ReportActivity
+* And Display in the form of Custom View
  */
 
 
