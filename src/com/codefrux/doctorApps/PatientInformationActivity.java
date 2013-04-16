@@ -1,6 +1,8 @@
 package com.codefrux.doctorApps;
 
-
+/**
+ This Activity is for Patient Information
+ **/
 
 
 
