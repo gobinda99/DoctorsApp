@@ -1,7 +1,8 @@
 package com.codefrux.doctorApps;
 
 /**
-  Activity for gorget password
+  This Activity Class Takes Mobile No 
+  And Response Doctor Name And Password if you forget both or either 
  **/
 
 
