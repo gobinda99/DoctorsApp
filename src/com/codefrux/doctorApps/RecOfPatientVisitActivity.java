@@ -1,7 +1,9 @@
 package com.codefrux.doctorApps;
 
 
-
+/*
+ * This Activity maintain the time taken and visiting the patient 
+ */
 
 
 import com.codefrux.doctorApps.control.ControlHeader;
